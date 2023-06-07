@@ -10,7 +10,7 @@
 	rel="stylesheet">
 <link rel="stylesheet" href="./css/footer.css" />
 <link rel="stylesheet" href="./css/nav.css" />
-<link rel="stylesheet" href="./css/style.css" />
+<link rel="stylesheet" href="./css/friend-style.css" />
 <script src="./js/navbar.js" defer></script>
 <title>게시물 상세 페이지</title>
 </head>
@@ -69,26 +69,40 @@
 				<section style="position: relative">
 					<div class="main-wrapper">
 						<div class="view_body_wrap">
+
+
 							<div class="board_title">
-								<h1>국내 여행</h1>
+								<h1>일행구하기</h1>
 								<div class="back-to-board-wrapper" onclick="history.back()">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-										viewBox="0 0 24 24">
+									<a href="local-friends-board.html"> <svg
+											xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+											viewBox="0 0 24 24">
                 <path
-											d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
+												d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
               </svg>
-									<h1>정보/뉴스</h1>
+										<h1>목록</h1>
+									</a>
 								</div>
 							</div>
+
 							<main class="main">
 								<div class="board_view_wrap">
 									<div class="board_view">
 										<div class="title">따뜻한 태양의 나라 스페인 방문기</div>
+
 										<div class="info2">
 											<div class="info2_left">
 												<dl>
+													<dt>지역</dt>
+													<dd>한국</dd>
+												</dl>
+												<dl>
 													<dt>여행 기간</dt>
 													<dd>2023-05-10 ~ 2023-05-12</dd>
+												</dl>
+												<dl>
+													<dt>모집인원</dt>
+													<dd>2명</dd>
 												</dl>
 											</div>
 
@@ -110,6 +124,10 @@
 											</div>
 										</div>
 
+										<section direction="vertical" class="image_output">
+											<img alt="이미지"
+												src="img/imageoutput/hanok-g8b9e61c1b_1280.jpg">
+										</section>
 										<div class="cont">
 											글 내용이 들어갑니다<br /> 글 내용이 들어갑니다<br /> 글 내용이 들어갑니다<br /> 글
 											내용이 들어갑니다<br /> 글 내용이 들어갑니다<br /> 글 내용이 들어갑니다<br /> 글 내용이
@@ -120,7 +138,7 @@
 								</div>
 								<div class="post-actions">
 									<button class="editButton" id="editButton">
-										<a href="edit-post.html">수정</a>
+										<a href="friends-edit-post.html">수정</a>
 									</button>
 									<button class="deleteButton" id="deleteButton">삭제</button>
 									<button class="goBackButton" id="goBackButton">목록</button>

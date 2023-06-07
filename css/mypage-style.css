@@ -15,8 +15,11 @@ a {
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   background-color: #f7f7f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -33,20 +36,21 @@ body {
   padding: 75px;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
 }
+
 #sub-menu {
   border: #f7f7f7 3px solid;
-  display: inline-block;
-  /*position: absolute;*/
+  display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   align-items: center;
   background-color: white;
-  width: 150px;
-  height: 225px;
+  width: 15rem;
+  height: 20rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
-  margin: 444px 30px 0 10px;
+  margin: 150px 30px 0 -232px;
+  padding: 0 25px;
 }
 
 #sub-menu > h3 {
@@ -54,18 +58,15 @@ body {
   border-radius: 1rem;
   font-size: 20px;
   border-bottom: 3px solid #f7f7f7;
-  width: 115px;
-  text-align: center;
-  /* margin : 10px 0 10px 40px; */
-  padding: 11px 19px 11px 19px;
+  width: 100%;
+  padding: 10px 0 10px 60px;
 }
 
 #sub-menu > h4 {
   font-size: 18px;
   /* border-bottom: 3px solid #f7f7f7; */
   width: 100%;
-  text-align: center;
-  padding: 8px 0px 6px 0px;
+  padding: 8px 20px 8px 70px;
 }
 
 .main-page main {
@@ -92,7 +93,6 @@ body {
 .board_title {
   display: flex;
   flex-direction: column;
-  padding-bottom: 10px;
 }
 
 .back-to-board-wrapper {
